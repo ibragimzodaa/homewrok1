@@ -1,0 +1,29 @@
+.bgImage{
+  background-image: url("./image/IMG.png");
+  background-position: center;
+  background-size: cover;
+  /* display: flex; */
+  color: white;
+  /* justify-content: space-between; */
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.images h1 {
+  user-select: none;
+}
+.texts{
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .header{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

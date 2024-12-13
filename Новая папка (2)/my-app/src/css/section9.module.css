@@ -1,0 +1,37 @@
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.h1 {
+  /* font-family: Quicksand; */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.5px;
+  /* text-align: center; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3d4f9f;
+  margin-bottom: 20px;
+}
+.p {
+  /* font-family: Roboto; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.74px;
+  letter-spacing: 0.03em;
+  /* text-align: left; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8d96bd;
+  width: 330px;
+height: 54px;
+top: 5721px;
+left: 276px;
+gap: 0px;
+opacity: 0px;
+
+}

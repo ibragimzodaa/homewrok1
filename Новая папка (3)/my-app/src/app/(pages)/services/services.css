@@ -1,0 +1,15 @@
+.bgImage{
+  background-image: url('./images/BG1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: white;
+  padding: 80px;
+}
+
+@media (max-width : 480px){
+  .bgImage{
+    width: 400px;
+    margin-top: 20px;
+  }
+}

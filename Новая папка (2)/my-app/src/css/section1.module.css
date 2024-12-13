@@ -1,0 +1,81 @@
+/* Paragraph styling */
+.p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  color: #3d4f9f;
+  text-align: center;
+  margin: 5px 0; /* Add spacing around paragraphs */
+}
+
+/* Heading styling */
+.glavnitext {
+  font-size: 48px; /* Base size for larger screens */
+  font-weight: 300;
+  line-height: 60px;
+  text-align: center;
+  color: #3d4f9f;
+  margin: 20px 0; /* Space above and below */
+}
+
+/* Descriptive paragraph styling */
+.p1 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #8d96bd;
+  max-width: 500px; /* Limits text width */
+  margin: auto; /* Centers the text */
+  padding: 0 20px; /* Adds padding for mobile devices */
+}
+
+/* Section container */
+.section {
+  margin-top: 40px;
+  text-align: center; /* Centers all child elements */
+  padding: 0 20px; /* Adds horizontal padding for smaller screens */
+}
+
+/* Media Queries */
+
+/* Medium screens (tablets, max-width: 768px) */
+@media (max-width: 768px) {
+  .glavnitext {
+    font-size: 36px; /* Reduce heading size */
+    line-height: 46px;
+  }
+
+  .p1 {
+    font-size: 13px; /* Slightly smaller paragraph font size */
+    line-height: 24px;
+  }
+
+  .p {
+    font-size: 9px;
+    line-height: 10px;
+  }
+}
+
+/* Small screens (mobile, max-width: 480px) */
+@media (max-width: 480px) {
+  .glavnitext {
+    font-size: 28px; /* Further reduce heading size */
+    line-height: 36px;
+  }
+
+  .p1 {
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 90%; /* Utilize most of the screen width */
+    padding: 0 10px; /* Increase padding for readability */
+  }
+
+  .p {
+    font-size: 8px;
+    line-height: 9px;
+    letter-spacing: 0.08em;
+  }
+}

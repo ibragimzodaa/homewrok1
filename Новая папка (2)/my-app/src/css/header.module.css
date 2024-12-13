@@ -1,0 +1,109 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+}
+.blueDiv {
+  width: 50px;
+  height: 50px;
+  background-color: #5e81fe;
+  border-radius: 50%;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.text p {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.action {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #d2e1ff;
+  font-size: 14px;
+  font-weight: 700;
+  color: #3a79ff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.action img {
+  max-width: 40px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .header {
+    /* flex-direction: column; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .action {
+    flex-direction: row; /* Keep icons and button aligned */
+    justify-content: center;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    padding: 15px;
+    justify-content: space-between;
+  }
+
+  .blueDiv {
+    width: 30px;
+    height: 30px;
+  }
+
+  .text p {
+    font-size: 11px;
+    display: none;
+  }
+
+  .action {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .button {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+
+  .action img {
+    max-width: 30px;
+  }
+}

@@ -1,0 +1,8 @@
+.bgIm {
+  background-image: url('../services/images/BG1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: white;
+  padding: 80px;
+}

@@ -1,0 +1,34 @@
+.p {
+  /* font-family: Roboto; */
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 11.72px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3d4f9f;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.h1 {
+  /* font-family: Quicksand; */
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3D4F9F;
+}
+.div{
+  width: 1000px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+@media (max-width : 480px) {
+  .div{
+    width: 350px;
+  }
+}

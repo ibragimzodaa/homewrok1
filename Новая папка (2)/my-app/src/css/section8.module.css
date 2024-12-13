@@ -1,0 +1,71 @@
+.p {
+  /* font-family: Roboto; */
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 11.72px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.section {
+  background: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px;
+}
+.h1 {
+  /* font-family: Quicksand; */
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.p1 {
+  /* font-family: Roboto; */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.65px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 20px;
+}
+.button {
+  width: 130.08px;
+  height: 43px;
+  top: 5427px;
+  left: 578px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  /* font-family: Quicksand; */
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16.25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #565f82;
+  margin-top: 50px;
+}
+.button1 {
+  width: 155px;
+  height: 43px;
+  top: 5427px;
+  left: 707px;
+  gap: 0px;
+  opacity: 0px;
+  border: 1px solid white;
+  /* font-family: Quicksand; */
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #c7d3ff;
+}

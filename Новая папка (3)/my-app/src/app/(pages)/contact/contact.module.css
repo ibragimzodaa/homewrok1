@@ -1,0 +1,20 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.img {
+  width: 400px;
+}
+.h1 {
+  /* font-family: Poppins; */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #056088;
+  margin-bottom: 30px;
+}
